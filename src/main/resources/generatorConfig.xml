@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+    <classPathEntry location="/Users/Sanbian/Documents/work/jar/mysql-connector-java-5.1.37.jar"/>
+    <context id="context1" >
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost/self_ddyoung_rice" userId="root" password="123456" />
+        <javaModelGenerator targetPackage="com.self.ddyoung.rice.model" targetProject="/Users/Sanbian/Documents/work/self/ddyoung-rice/src/main/java" />
+        <sqlMapGenerator targetPackage="com.self.ddyoung.rice.map" targetProject="/Users/Sanbian/Documents/work/self/ddyoung-rice/src/main/java" />
+        <javaClientGenerator targetPackage="com.self.ddyoung.rice.dao" targetProject="/Users/Sanbian/Documents/work/self/ddyoung-rice/src/main/java" type="XMLMAPPER" />
+        <table tableName="cu_ac_writeoff" domainObjectName="WriteoffDO" ></table>
+    </context>
+</generatorConfiguration>
