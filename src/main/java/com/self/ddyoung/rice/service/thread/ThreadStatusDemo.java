@@ -1,4 +1,4 @@
-package com.self.ddyoung.rice.service;
+package com.self.ddyoung.rice.service.thread;
 
 /**
  * Created by sanbian on 2017/8/17.

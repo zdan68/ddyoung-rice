@@ -1,4 +1,4 @@
-package com.self.ddyoung.rice.service;
+package com.self.ddyoung.rice.service.user;
 
 import com.self.ddyoung.rice.dao.UserDAO;
 import com.self.ddyoung.rice.model.UserDO;

@@ -2,7 +2,7 @@ package com.self.ddyoung.rice.controller;
 
 import com.self.ddyoung.rice.dao.UserDAO;
 import com.self.ddyoung.rice.model.UserDO;
-import com.self.ddyoung.rice.service.UserService;
+import com.self.ddyoung.rice.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

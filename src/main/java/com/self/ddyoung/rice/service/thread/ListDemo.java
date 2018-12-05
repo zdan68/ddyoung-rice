@@ -1,4 +1,4 @@
-package com.self.ddyoung.rice.service;
+package com.self.ddyoung.rice.service.thread;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;

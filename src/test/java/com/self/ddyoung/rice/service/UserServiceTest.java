@@ -1,6 +1,7 @@
 package com.self.ddyoung.rice.service;
 
 import com.self.ddyoung.rice.model.UserDO;
+import com.self.ddyoung.rice.service.user.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
