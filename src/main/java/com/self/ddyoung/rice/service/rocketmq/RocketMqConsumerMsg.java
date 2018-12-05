@@ -17,8 +17,6 @@ import java.util.List;
 public class RocketMqConsumerMsg {
     private static final Logger LOGGER = LoggerFactory.getLogger(RocketMqConsumerMsg.class);
 
-    private HessianSerializer<Msg> hessianSerializer;
-
     public static void main(String[] args) {
         DefaultMQPushConsumer consumer =
                 new DefaultMQPushConsumer("PushConsumer1205");
